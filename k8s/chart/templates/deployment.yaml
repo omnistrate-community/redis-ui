@@ -12,6 +12,7 @@ spec:
         metadata:
             labels:
                 app.kubernetes.io/name: p3x-redis-ui
+                omnistrate.com/managed: true
         spec:
             containers:
                 - name: p3x-redis-ui
